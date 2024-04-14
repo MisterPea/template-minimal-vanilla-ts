@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: #202020;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  color: #346167;
+  text-align: center;
+  animation: up-and-running 1000ms linear infinite;
+}
+
+@keyframes up-and-running {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
