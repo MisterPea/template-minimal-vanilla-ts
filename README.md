@@ -2,9 +2,11 @@
 
 To use: 
 ### Via clone:
-1. clone the repository
-2. `$ cd template-minimal-vanilla-ts && rm -rf .git` to remove .git for this template repo
-
+1. `clone` the repository
+2. Remove .git for this template repo (below)
+```
+cd template-minimal-vanilla-ts && rm -rf .git
+```
 
 ### Via 'Use this template':
 1. Click the 'Use this template' then `pull` it local
