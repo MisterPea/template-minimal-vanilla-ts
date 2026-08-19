@@ -33,10 +33,6 @@ module.exports = {
     ],
   },
   devServer: {
-    client: {
-      webSocketTransport: 'sockjs', // Needed b/c webSocket was crashing devServer
-    },
-    webSocketServer: 'sockjs',
     static: './dist',
     hot: true,
     historyApiFallback: true,
